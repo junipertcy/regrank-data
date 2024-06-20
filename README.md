@@ -1,13 +1,14 @@
 # Data sets 
-## Time-varying network
-* See [us_air_traffic](https://networks.skewed.de/net/us_air_traffic), this data set can analyze annual change in rankings of the U.S. airports, ranging from 1990 to 2020 (total 31 years). This data set is nice because it spans many years, and---when ever there is a sudden change in rankings---we may be able to identify a reason to explain. We can also use trends (economic) to correlate and understand the changing rankings, too. 
 
 ## Categorical metadata on the nodes
 * Austrian internal migrations (2002-2022); See [at_migrations](https://networks.skewed.de/net/at_migrations) at Netzschleuder. The nodes in this network contains the names of the administrative locations. We can ask: What locations stand out to be the most popular in human migration?
-
+* Play-by-play data scrapped (by @ryurko, at [nflscrapR-data](https://github.com/ryurko/nflscrapR-data)) from NFL.com, in regular season games
 
 ## Categorical metadata on the edges
 * Faculty hiring networks in the US (2022); see [faculty_hiring_us](https://networks.skewed.de/net/faculty_hiring_us). This network has edge annotations that we can ask the following question: Which domain / field mostly affects the rankings on the nodes?
+* 
+## Time-varying network
+* See [us_air_traffic](https://networks.skewed.de/net/us_air_traffic), this data set can analyze annual change in rankings of the U.S. airports, ranging from 1990 to 2020 (total 31 years). This data set is nice because it spans many years, and---when ever there is a sudden change in rankings---we may be able to identify a reason to explain. We can also use trends (economic) to correlate and understand the changing rankings, too. 
 
 ## Robust ranking (Huber)
 * Dutch school friendships (2003); see [dutch_school](https://networks.skewed.de/net/dutch_school). This small network can be used in the robust ranking case, to illustrate how a smaller network can make the rankings fluctuate. 
