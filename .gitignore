@@ -1,3 +1,15 @@
+# Downloaded dataset files (kept out of repo)
+*/data/
+*.gt.zst
+*.tsv.gz
+*.csv.gz
+*.gz
+*.zip
+.DS_Store
+
+# Keep existing committed data
+!PhD_exchange/PhD_exchange_network.mat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
